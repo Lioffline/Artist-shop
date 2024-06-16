@@ -1,0 +1,38 @@
+.icon-user {
+    margin-right: 5px;
+}
+body {
+    background-color: #14161a; /* Цвет фона страницы */
+}
+.post-container {
+    background-color: #14161a; /* Цвет фона контейнера карточек */
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.card {
+    background-color: #14161a;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    /* Установка белой обводки */
+    border: 1px solid #ffffff; /* Белая обводка */
+    /* Дополнительные стили... */
+}
+.card-content {
+    padding: 20px;
+}
+.card .title, .card .subtitle {
+    color: white;
+}
+.card .content {
+    color: #b5b5b5;
+}
+.card-image img {
+    object-fit: cover;
+    height: 400px;
+    width: 100%;
+}
+.icon-user {
+margin-right: 5px;
+}
